@@ -11,7 +11,7 @@ Besides, we are going to be using a sample server which contains a several of pu
 
 ### Getting Started
   - Clone this repository on your local machine:
-    - `git clone https://github.com/LerryAlexander/postman_jenkins_api_tests.git`
+    - `git clone `
   - From the root of the repository (`/postman_jenkins_api_tests`) run docker container based on an existing docker image which contains jenkins, nodejs and newman already installed: 
     - `sudo docker run -p 8080:8080 -p 50000:50000 -v ${PWD}:/postman_jenkins_api_tests vdespa/jenkins-nodejs-newman`
   - Install Jenkins on the docker container:
