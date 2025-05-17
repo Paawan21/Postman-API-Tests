@@ -27,7 +27,7 @@ Besides, we are going to be using a sample server which contains a several of pu
     - For this purpose we are going to be using the **Jenkinsfile** added to this repository which contains a simple Groovy sintax that invokes postman tests by          using newman
     - Click on **Create a new job**
     - Enter an item name, for example `Jenkins Newman Tests`, select **Pipeline** option and click on **OK** button
-    - In the **Pipeline** section, from **Definition** option select `Pipeline script from SCM`, copy this repository url        (https://github.com/LerryAlexander/postman_jenkins_api_tests.git) and paste it on the **Repository URL** (see image below) and save changes.
+    - In the **Pipeline** section, from **Definition** option select `Pipeline script from SCM`, copy this repository url        (https://github.com/Paawan21/Postman-API-Tests.git) and paste it on the **Repository URL** (see image below) and save changes.
     ![](images/pipeline_configuration.png)
 
 ### Running Pipeline
